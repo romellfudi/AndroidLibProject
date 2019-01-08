@@ -1,18 +1,18 @@
-## Android Lib project using cookiecutter
+## Fabricación de projecto Android usando cookiecutter
 
 [![Platform](https://img.shields.io/badge/platform-android-brightgreen.svg)](https://developer.android.com/index.html)
-[![](https://img.shields.io/badge/language-ES-blue.svg)](./README.es)
+[![](https://img.shields.io/badge/language-EN-blue.svg)](./)
 
-### By Romell Domínguez
+### por Romell Domínguez
 [![](snapshot/icono.png#favico)](https://www.romellfudi.com/)
 
-[cookiecutter](https://github.com/audreyr/cookiecutter) template for Gradle-based Android projects.
+[cookiecutter](https://github.com/audreyr/cookiecutter) plantilla para proyectos usando gradle.
 
-## Requirements
+## Requerimientos
 
 - [cookiecutter](https://github.com/audreyr/cookiecutter)
 
-## Usage
+## Usar
 
 ```
 cookiecutter gh:romellfudi/AndroidLibProject
