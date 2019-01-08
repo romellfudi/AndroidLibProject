@@ -12,5 +12,5 @@
 ## Usage
 
 ```
-cookiecutter gh:alexfu/cookiecutter-android
+cookiecutter gh:romellfudi/AndroidLibProject
 ```
