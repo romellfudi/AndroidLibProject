@@ -2,5 +2,8 @@
   "app_name": "MyApplication",
   "package_name": "com.username.myapp",
   "package_dir": "{{ cookiecutter.package_name | replace('.', '/') }}",
+  "lib_name": "library",
+  "lib_package_name": "com.username.mylib",
+  "lib_package_dir": "{{ cookiecutter.lib_package_name | replace('.', '/') }}",
   "_copy_without_render": [".gradle", "gradle/", "*gradlew", "*gradlew.bat"]
 }
