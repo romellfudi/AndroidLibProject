@@ -1,7 +1,8 @@
 ## Android Lib project using cookiecutter
 
 [![Platform](https://img.shields.io/badge/platform-android-brightgreen.svg)](https://developer.android.com/index.html)
-[![](https://img.shields.io/badge/language-ES-blue.svg)](./README.es)
+[![Language](https://img.shields.io/badge/language-ES-blue.svg)](./README.es)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/romellfudi/AndroidLibProject/blob/master/LICENSE)
 
 ### By Romell Domínguez
 [![](snapshot/icono.png#favico)](https://www.romellfudi.com/)
@@ -56,7 +57,7 @@ app_name
         │   └── res
         └── test
             └── java
-                └── cookiecutter.lib_package_dir
+                └── lib_package_dir
                     └── ExampleUnitTest.java
 ```
 
@@ -69,3 +70,8 @@ app_name
 ```
 cookiecutter gh:romellfudi/AndroidLibProject
 ```
+
+### License
+MIT. See the LICENSE file for the copyright notice.
+
+2019, January

@@ -1,7 +1,8 @@
 ## Fabricación de projecto Android usando cookiecutter
 
 [![Platform](https://img.shields.io/badge/platform-android-brightgreen.svg)](https://developer.android.com/index.html)
-[![](https://img.shields.io/badge/language-EN-blue.svg)](./)
+[![Language](https://img.shields.io/badge/language-ES-blue.svg)](./README.es)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/romellfudi/AndroidLibProject/blob/master/LICENSE)
 
 ### por Romell Domínguez
 [![](snapshot/icono.png#favico)](https://www.romellfudi.com/)
@@ -56,7 +57,7 @@ app_name
         │   └── res
         └── test
             └── java
-                └── cookiecutter.lib_package_dir
+                └── lib_package_dir
                     └── ExampleUnitTest.java
 ```
 
@@ -64,8 +65,13 @@ app_name
 
 - [cookiecutter](https://github.com/audreyr/cookiecutter)
 
-## Usar
+## Uso
 
 ```
 cookiecutter gh:romellfudi/AndroidLibProject
 ```
+
+### License
+MIT. See the LICENSE file for the copyright notice.
+
+2019, Enero
