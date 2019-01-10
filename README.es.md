@@ -75,3 +75,11 @@ cookiecutter gh:romellfudi/AndroidLibProject
 MIT. See the LICENSE file for the copyright notice.
 
 2019, Enero
+
+<style>
+img[src*='#favico'] { 
+    width:200px;
+    display: block;
+    margin: auto;
+}
+</style>
