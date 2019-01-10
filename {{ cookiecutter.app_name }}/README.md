@@ -1,7 +1,7 @@
 # TODO : please update readme
 
 # {{cookiecutter.app_name}}
-## by {{cookiecutter.app_name}}
+## by {{cookiecutter.author_name}}
 
 {{cookiecutter.description}}
 
