@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/romellfudi/AndroidLibProject/blob/master/LICENSE)
 
 ### By Romell Domínguez
-[![](https://raw.githubusercontent.com/romellfudi/assets/master/favicon.ico#favico)](https://www.romellfudi.com/)
+[![](https://raw.githubusercontent.com/romellfudi/assets/master/favicon.ico)](https://www.romellfudi.com/)
 
 [cookiecutter](https://github.com/audreyr/cookiecutter) template for Gradle-based Android projects.
 
@@ -75,11 +75,3 @@ cookiecutter gh:romellfudi/AndroidLibProject
 MIT. See the LICENSE file for the copyright notice.
 
 2019, January
-
-<style>
-img[src*='#favico'] { 
-    width:200px;
-    display: block;
-    margin: auto;
-}
-</style>
