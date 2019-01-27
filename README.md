@@ -1,7 +1,7 @@
 ## Android Lib project using cookiecutter
 
 [![Platform](https://img.shields.io/badge/platform-android-brightgreen.svg)](https://developer.android.com/index.html)
-[![Language](https://img.shields.io/badge/language-ES-blue.svg)](./README.es.md)
+[![Language](https://img.shields.io/badge/language-ES-blue.svg)](./README.es)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/romellfudi/AndroidLibProject/blob/master/LICENSE)
 
 ### By Romell Domínguez
