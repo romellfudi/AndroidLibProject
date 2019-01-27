@@ -1,7 +1,7 @@
 ## Fabricación de projecto Android usando cookiecutter
 
 [![Platform](https://img.shields.io/badge/platform-android-brightgreen.svg)](https://developer.android.com/index.html)
-[![Language](https://img.shields.io/badge/language-EN-blue.svg)](./README.md)
+[![Language](https://img.shields.io/badge/language-EN-blue.svg)](./)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/romellfudi/AndroidLibProject/blob/master/LICENSE)
 
 ### por Romell Domínguez
