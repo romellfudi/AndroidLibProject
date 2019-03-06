@@ -1,16 +1,11 @@
 package {{ cookiecutter.lib_package_name }};
 
-public class Api {
+public class Api extends ApiAbstract {
 
     private static final String TAG = Api.class.getSimpleName();
 
-    protected static APICache apiCache;
-
-    private static Integer getValue() {
-        return Api.apiCache.getValue().get();
+    public Api(Context context) {
+        super(context);
     }
 
-    private static String getData() {
-        return Api.apiCache.getData().toString();
-    }
 }
