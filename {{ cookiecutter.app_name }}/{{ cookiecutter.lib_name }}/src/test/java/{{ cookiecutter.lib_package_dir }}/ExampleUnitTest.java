@@ -23,6 +23,12 @@ import static org.mockito.Matchers.anyInt;
 import static org.mockito.Mockito.when;
 import static org.powermock.api.mockito.PowerMockito.doAnswer;
 
+/**
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version 1.0.a {% now 'local', '%d/%m/%Y' %}
+ * @since 1.0.a
+ */
 @RunWith(PowerMockRunner.class)
 public class ExampleUnitTest {
     @Mock

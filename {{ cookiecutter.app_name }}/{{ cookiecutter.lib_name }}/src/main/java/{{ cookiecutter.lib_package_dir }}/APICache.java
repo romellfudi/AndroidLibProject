@@ -6,6 +6,12 @@ import android.content.SharedPreferences;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 
+/**
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version 1.0.a {% now 'local', '%d/%m/%Y' %}
+ * @since 1.0.a
+ */
 public class APICache {
 
     public static final String DATA = "DATA";

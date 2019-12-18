@@ -2,6 +2,12 @@ package {{ cookiecutter.lib_package_name }};
 
 import android.content.Context;
 
+/**
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version 1.0.a {% now 'local', '%d/%m/%Y' %}
+ * @since 1.0.a
+ */
 public abstract class ApiAbstract implements Module {
 
     private Context context;
