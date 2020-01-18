@@ -2,10 +2,10 @@
   "app_name": "MyApplication",
   "description": "A short description of the project.",
   "author_name": "Your name (or your organization/company/team)",
-  "package_name": "com.username.myapp",
+  "package_name": "com.romellfudi.myapp",
   "package_dir": "{{ cookiecutter.package_name | replace('.', '/') }}",
   "lib_name": "library",
-  "lib_package_name": "com.username.mylib",
+  "lib_package_name": "com.romellfudi.mylib",
   "lib_package_dir": "{{ cookiecutter.lib_package_name | replace('.', '/') }}",
   "open_source_license": ["MIT", "APACHE", "No license file"],
   "_copy_without_render": [".gradle", "gradle/", "*gradlew", "*gradlew.bat"]
