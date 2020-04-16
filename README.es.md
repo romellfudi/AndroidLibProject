@@ -1,4 +1,4 @@
-## Fabricación de projecto Android usando cookiecutter
+## Fabricación de librerías Android usando cookiecutter
 
 [![Platform](https://img.shields.io/badge/platform-android-brightgreen.svg)](https://developer.android.com/index.html)
 [![Language](https://img.shields.io/badge/language-EN-blue.svg)](./)
@@ -87,4 +87,4 @@ app_name
 ### License
 MIT. See the LICENSE file for the copyright notice.
 
-2019, Enero
+2020, April

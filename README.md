@@ -1,4 +1,4 @@
-## Android Lib project using cookiecutter
+## Android Lib template using cookiecutter
 
 [![Platform](https://img.shields.io/badge/platform-android-brightgreen.svg)](https://developer.android.com/index.html)
 [![Language](https://img.shields.io/badge/language-ES-blue.svg)](./README.es)
@@ -87,4 +87,4 @@ app_name
 ### License
 MIT. See the LICENSE file for the copyright notice.
 
-2019, January
+2020, April
