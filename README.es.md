@@ -45,12 +45,12 @@ app_name
 │       ├── androidTest
 │       │   └── java
 │       │       └── package_dir
-│       │           └── ExampleInstrumentedTest.java
+│       │           └── ExampleInstrumentedTest
 │       └── main
 │           ├── AndroidManifest.xml
 │           ├── java
 │           │   └── package_dir
-│           │       └── MainActivity.java
+│           │       └── MainActivity
 │           └── res
 ├── build.gradle
 ├── gradle
@@ -69,18 +69,18 @@ app_name
         │   ├── AndroidManifest.xml
         │   ├── java
         │   │   └── lib_package_dir
-        │   │       ├── APICache.java
-        │   │       ├── APIException.java
-        │   │       ├── Api.java
-        │   │       ├── ApiAbstract.java
-        │   │       ├── Callback.java
-        │   │       ├── DataResponse.java
-        │   │       └── Module.java
+        │   │       ├── APICache
+        │   │       ├── APIException
+        │   │       ├── Api
+        │   │       ├── ApiAbstract
+        │   │       ├── Callback
+        │   │       ├── DataResponse
+        │   │       └── Module
         │   └── res
         └── test
             └── java
                 └── lib_package_dir
-                    └── ExampleUnitTest.java
+                    └── ExampleUnitTest
 ```
 
 [cookiecutter](https://github.com/audreyr/cookiecutter) plantilla para proyectos usando gradle.
