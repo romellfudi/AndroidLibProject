@@ -22,9 +22,11 @@ or
 $ conda config --add channels conda-forge
 $ conda install cookiecutter
 ```
+
 ### To start a new kotlin project, run:
 ------------
     cookiecutter  gh:romellfudi/AndroidLibProject --checkout kotlin
+
 ### To start a new java project, run:
 ------------
     cookiecutter  gh:romellfudi/AndroidLibProject --checkout java
