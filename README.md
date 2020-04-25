@@ -83,7 +83,7 @@ app_name
 
 [cookiecutter](https://github.com/audreyr/cookiecutter) template for Gradle-based Android projects.
 
-## Check Dagger-MVP-Interator [sources](https://github.com/romellfudi/AndroidLibProject/releases/download/Rev07/sources.zip) & [res](https://github.com/romellfudi/AndroidLibProject/releases/download/Rev07/sources.zip)
+## Check Dagger-MVP-Interator [sources](https://github.com/romellfudi/AndroidLibProject/releases/download/Rev07/sources.zip) & [res](https://github.com/romellfudi/AndroidLibProject/releases/download/Rev07/res.zip)
 
 ### License
 MIT. See the LICENSE file for the copyright notice.
