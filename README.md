@@ -83,6 +83,8 @@ app_name
 
 [cookiecutter](https://github.com/audreyr/cookiecutter) template for Gradle-based Android projects.
 
+## Check [Dagger-MVP-Interator](https://github.com/contactBoostTag/dagger/tree/master/android-kotlin-mvp-architecture)
+
 ### License
 MIT. See the LICENSE file for the copyright notice.
 
