@@ -32,7 +32,7 @@ ext {
     minSdkVersion = 16
     targetSdkVersion = 28
     compileSdkVersion = 28
-    buildToolsVersion = '28.0.3'
+    buildToolsVersion = '28.0.0'
 
     // App dependencies
     kotlinVersion = kotlinVersion
@@ -56,4 +56,3 @@ ext {
     mockitoVersion = '2.7.1'
     androidKTXVersion = '0.1'
 }
-
