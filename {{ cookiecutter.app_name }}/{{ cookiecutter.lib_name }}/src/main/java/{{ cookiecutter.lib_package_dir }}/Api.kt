@@ -5,8 +5,8 @@ import android.content.Context
 /**
  *
  * @author {{ cookiecutter.author_name }}
- * @version 1.0.a {% now 'local', '%d/%m/%Y' %}
- * @since 1.0.a
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
  */
 class Api(context: Context?) : ApiAbstract(context) {
     companion object {
