@@ -8,8 +8,8 @@ import java.util.concurrent.atomic.AtomicReference
 /**
  *
  * @author {{ cookiecutter.author_name }}
- * @version 1.0.a {% now 'local', '%d/%m/%Y' %}
- * @since 1.0.a
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
  */
 class APICache private constructor(context: Context) {
     private val prefs: SharedPreferences = context.getSharedPreferences(context.packageName, Context.MODE_PRIVATE)

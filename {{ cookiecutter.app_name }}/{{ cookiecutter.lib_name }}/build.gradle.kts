@@ -12,7 +12,7 @@ android {
         minSdkVersion (16)
         targetSdkVersion (29)
         versionCode = 1
-        versionName = "1.0.a"
+        versionName = "{{ cookiecutter.version_package_name }}"
         testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

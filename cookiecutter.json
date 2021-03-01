@@ -6,6 +6,7 @@
   "package_dir": "{{ cookiecutter.package_name | replace('.', '/') }}",
   "lib_name": "library",
   "lib_package_name": "com.romellfudi.mylib",
+  "version_package_name": "1.0.a",
   "lib_package_dir": "{{ cookiecutter.lib_package_name | replace('.', '/') }}",
   "open_source_license": ["MIT", "APACHE", "No license file"],
   "_copy_without_render": [".gradle", "gradle/", "*gradlew", "*gradlew.bat"]
