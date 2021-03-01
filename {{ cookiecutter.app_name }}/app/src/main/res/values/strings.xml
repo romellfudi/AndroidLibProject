@@ -1,5 +1,5 @@
 <resources>
-  <string name="app_name">Kotlin MVP</string>
+  <string name="app_name">{{ cookiecutter.app_name }}</string>
   <string name="login_dummy">Login Dummy</string>
   <string name="email">Email</string>
   <string name="password">Password</string>
