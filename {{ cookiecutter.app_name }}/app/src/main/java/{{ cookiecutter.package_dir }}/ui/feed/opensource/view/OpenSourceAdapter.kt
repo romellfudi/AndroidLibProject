@@ -11,9 +11,11 @@ import {{ cookiecutter.package_name }}.data.network.OpenSource
 import {{ cookiecutter.package_name }}.util.extension.loadImage
 import kotlinx.android.synthetic.main.item_open_source_list.view.*
 
-
 /**
- * Created by jyotidubey on 14/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
  */
 class OpenSourceAdapter(openSourceListItems: MutableList<OpenSource>) : RecyclerView.Adapter<OpenSourceAdapter.OpenSourceViewHolder>() {
 

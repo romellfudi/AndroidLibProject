@@ -7,7 +7,10 @@ import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
 /**
- * Created by jyotidubey on 03/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
  */
 @Entity(tableName = "questions")
 data class Question(

@@ -8,7 +8,10 @@ import {{ cookiecutter.package_name }}.data.database.repository.questions.Questi
 import {{ cookiecutter.package_name }}.data.database.repository.questions.QuestionsDao
 
 /**
- * Created by jyotidubey on 03/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
  */
 @Database(entities = [(Question::class), (Options::class)], version = 1)
 abstract class AppDatabase : RoomDatabase() {

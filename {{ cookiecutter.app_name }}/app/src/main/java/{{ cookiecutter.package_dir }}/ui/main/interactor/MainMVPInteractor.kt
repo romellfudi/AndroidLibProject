@@ -6,7 +6,10 @@ import io.reactivex.Observable
 import io.reactivex.Single
 
 /**
- * Created by jyotidubey on 08/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
  */
 interface MainMVPInteractor : MVPInteractor {
 

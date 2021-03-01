@@ -10,6 +10,12 @@ import {{ cookiecutter.package_name }}.ui.splash.interactor.SplashMVPInteractor
 import {{ cookiecutter.package_name }}.ui.splash.presenter.SplashMVPPresenter
 import javax.inject.Inject
 
+/**
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
+ */
 class SplashMVPActivity : BaseActivity(), SplashMVPView {
 
     @Inject

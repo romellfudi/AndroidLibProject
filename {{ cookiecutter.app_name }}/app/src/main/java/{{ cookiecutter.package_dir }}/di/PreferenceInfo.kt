@@ -3,7 +3,10 @@ package {{ cookiecutter.package_name }}.di
 import javax.inject.Qualifier
 
 /**
- * Created by jyotidubey on 11/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
  */
 @Qualifier
 @Retention annotation class PreferenceInfo

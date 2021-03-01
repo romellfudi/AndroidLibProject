@@ -5,7 +5,10 @@ import {{ cookiecutter.package_name }}.ui.rate.interactor.RateUsMVPInterator
 import {{ cookiecutter.package_name }}.ui.rate.view.RateUsDialogMVPView
 
 /**
- * Created by jyotidubey on 15/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
  */
 interface RateUsMVPPresenter<V : RateUsDialogMVPView, I : RateUsMVPInterator> : MVPPresenter<V, I> {
 

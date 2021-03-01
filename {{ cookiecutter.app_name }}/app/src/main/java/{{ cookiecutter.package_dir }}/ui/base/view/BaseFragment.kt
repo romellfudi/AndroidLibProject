@@ -8,9 +8,11 @@ import android.view.View
 import {{ cookiecutter.package_name }}.util.CommonUtil
 import dagger.android.support.AndroidSupportInjection
 
-
 /**
- * Created by jyotidubey on 12/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
  */
 abstract class BaseFragment : Fragment(), MVPView {
 

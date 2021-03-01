@@ -5,7 +5,10 @@ import {{ cookiecutter.package_name }}.ui.feed.opensource.interactor.OpenSourceM
 import {{ cookiecutter.package_name }}.ui.feed.opensource.view.OpenSourceMVPView
 
 /**
- * Created by jyotidubey on 14/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
  */
 interface OpenSourceMVPPresenter<V : OpenSourceMVPView, I : OpenSourceMVPInteractor> : MVPPresenter<V, I> {
 

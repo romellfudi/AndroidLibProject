@@ -7,7 +7,10 @@ import {{ cookiecutter.package_name }}.ui.feed.blog.view.BlogFragment
 import {{ cookiecutter.package_name }}.ui.feed.opensource.view.OpenSourceFragment
 
 /**
- * Created by jyotidubey on 13/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
  */
 class FeedPagerAdapter(fragmentManager: FragmentManager) : FragmentStatePagerAdapter(fragmentManager) {
 

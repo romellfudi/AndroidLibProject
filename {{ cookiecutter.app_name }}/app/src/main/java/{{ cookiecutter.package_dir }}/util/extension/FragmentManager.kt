@@ -7,7 +7,10 @@ import com.bumptech.glide.Glide
 import {{ cookiecutter.package_name }}.R
 
 /**
- * Created by jyotidubey on 18/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
  */
 internal fun FragmentManager.removeFragment(tag: String,
                                             slideIn: Int = R.anim.slide_left,

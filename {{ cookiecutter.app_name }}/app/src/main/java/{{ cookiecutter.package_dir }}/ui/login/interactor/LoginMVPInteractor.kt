@@ -6,7 +6,10 @@ import {{ cookiecutter.package_name }}.util.AppConstants
 import io.reactivex.Observable
 
 /**
- * Created by jyotidubey on 10/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
  */
 interface LoginMVPInteractor : MVPInteractor {
 

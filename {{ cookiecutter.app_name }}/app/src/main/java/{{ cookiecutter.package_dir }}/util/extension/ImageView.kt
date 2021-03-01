@@ -4,7 +4,10 @@ import android.widget.ImageView
 import com.bumptech.glide.Glide
 
 /**
- * Created by jyotidubey on 24/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
  */
 internal fun ImageView.loadImage(url: String) {
     Glide.with(this.context)

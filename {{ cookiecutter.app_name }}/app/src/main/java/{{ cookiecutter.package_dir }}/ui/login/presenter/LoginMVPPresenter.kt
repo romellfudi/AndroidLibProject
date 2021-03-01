@@ -5,7 +5,10 @@ import {{ cookiecutter.package_name }}.ui.login.interactor.LoginMVPInteractor
 import {{ cookiecutter.package_name }}.ui.login.view.LoginMVPView
 
 /**
- * Created by jyotidubey on 10/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
  */
 interface LoginMVPPresenter<V : LoginMVPView, I : LoginMVPInteractor> : MVPPresenter<V, I> {
 

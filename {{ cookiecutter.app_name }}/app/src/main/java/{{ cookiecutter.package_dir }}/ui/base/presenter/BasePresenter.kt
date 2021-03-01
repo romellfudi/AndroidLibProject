@@ -6,7 +6,10 @@ import {{ cookiecutter.package_name }}.util.SchedulerProvider
 import io.reactivex.disposables.CompositeDisposable
 
 /**
- * Created by jyotidubey on 04/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
  */
 abstract class BasePresenter<V : MVPView, I : MVPInteractor> internal constructor(protected var interactor: I?, protected val schedulerProvider: SchedulerProvider, protected val compositeDisposable: CompositeDisposable) : MVPPresenter<V, I> {
 

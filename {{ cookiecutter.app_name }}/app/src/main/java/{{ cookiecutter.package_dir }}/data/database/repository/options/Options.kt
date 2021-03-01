@@ -9,7 +9,10 @@ import com.google.gson.annotations.SerializedName
 import {{ cookiecutter.package_name }}.data.database.repository.questions.Question
 
 /**
- * Created by jyotidubey on 03/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
  */
 @Entity(tableName = "options", foreignKeys = [(ForeignKey(entity = Question::class,
         parentColumns = arrayOf("id"),

@@ -5,7 +5,10 @@ import {{ cookiecutter.package_name }}.data.preferences.PreferenceHelper
 import {{ cookiecutter.package_name }}.util.AppConstants
 
 /**
- * Created by jyotidubey on 04/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
  */
 open class BaseInteractor() : MVPInteractor {
 

@@ -9,7 +9,10 @@ import {{ cookiecutter.package_name }}.ui.base.view.BaseFragment
 import kotlinx.android.synthetic.main.fragment_about.*
 
 /**
- * Created by jyotidubey on 12/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version {{ cookiecutter.version_package_name }} {% now 'local', '%d/%m/%Y' %}
+ * @since {{ cookiecutter.version_package_name }}
  */
 class AboutFragment : BaseFragment() {
 
