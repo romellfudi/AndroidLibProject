@@ -1,8 +1,10 @@
 package {{ cookiecutter.package_name }}.util
 
-
 /**
- * Created by jyotidubey on 05/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version 1.0.a {% now 'local', '%d/%m/%Y' %}
+ * @since 1.0.a
  */
 object AppConstants {
 

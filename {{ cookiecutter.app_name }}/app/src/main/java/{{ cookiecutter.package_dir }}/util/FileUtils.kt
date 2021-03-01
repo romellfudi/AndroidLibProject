@@ -5,7 +5,10 @@ import java.io.IOException
 import java.nio.charset.Charset
 
 /**
- * Created by jyotidubey on 07/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version 1.0.a {% now 'local', '%d/%m/%Y' %}
+ * @since 1.0.a
  */
 object FileUtils {
 

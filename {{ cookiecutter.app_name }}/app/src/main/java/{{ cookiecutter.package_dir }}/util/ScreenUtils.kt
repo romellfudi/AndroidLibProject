@@ -5,7 +5,10 @@ import android.util.DisplayMetrics
 import android.view.WindowManager
 
 /**
- * Created by jyotidubey on 09/01/18.
+ *
+ * @author {{ cookiecutter.author_name }}
+ * @version 1.0.a {% now 'local', '%d/%m/%Y' %}
+ * @since 1.0.a
  */
 object ScreenUtils {
 
