@@ -25,7 +25,14 @@ $ conda install cookiecutter
 ```
 ### To develop a new kotlin project, run:
 ------------
+    cookiecutter  gh:romellfudi/AndroidLibProject --checkout kotlin_dsl
+
+
+### To develop a new kotlin project, run:
+------------
     cookiecutter  gh:romellfudi/AndroidLibProject --checkout kotlin
+
+
 ### To develop a new java project, run:
 ------------
     cookiecutter  gh:romellfudi/AndroidLibProject --checkout java
