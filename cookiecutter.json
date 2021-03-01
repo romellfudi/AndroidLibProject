@@ -2,7 +2,7 @@
   "app_name": "MyApplication",
   "description": "A short description of the project.",
   "author_name": "Your name (or your organization/company/team)",
-  "package_name": "{{ cookiecutter.package_name }}",
+  "package_name": "com.romellfudi.myapp",
   "package_dir": "{{ cookiecutter.package_name | replace('.', '/') }}",
   "lib_name": "library",
   "lib_package_name": "com.romellfudi.mylib",
