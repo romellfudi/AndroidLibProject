@@ -23,7 +23,7 @@ or
 $ conda config --add channels conda-forge
 $ conda install cookiecutter
 ```
-### To develop a new kotlin project, run:
+### To develop a new kotlin DSL project, run:
 ------------
     cookiecutter  gh:romellfudi/AndroidLibProject --checkout kotlin_dsl
 
