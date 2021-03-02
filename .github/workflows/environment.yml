@@ -23,6 +23,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -q cookiecutter
+        
     - name: Generate Java project
       run: |
         cookiecutter gh:romellfudi/AndroidLibProject -c java  --no-input --overwrite-if-exists
@@ -34,7 +35,7 @@ jobs:
         cookiecutter gh:romellfudi/AndroidLibProject -c kotlin  --no-input --overwrite-if-exists
     - name: Testing Kotlin project
       run: cd MyApplication;./gradlew build;cd ..; rm -rf MyApplication;
-      
+
     - name: Generate Kotlin DSL project
       run: |
         cookiecutter gh:romellfudi/AndroidLibProject -c kotlin_dsl  --no-input --overwrite-if-exists
