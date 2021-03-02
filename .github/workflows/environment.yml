@@ -34,6 +34,7 @@ jobs:
         cookiecutter gh:romellfudi/AndroidLibProject -c kotlin  --no-input --overwrite-if-exists
     - name: Testing Kotlin project
       run: cd MyApplication;./gradlew build;cd ..; rm -rf MyApplication;
+      
     - name: Generate Kotlin DSL project
       run: |
         cookiecutter gh:romellfudi/AndroidLibProject -c kotlin_dsl  --no-input --overwrite-if-exists
