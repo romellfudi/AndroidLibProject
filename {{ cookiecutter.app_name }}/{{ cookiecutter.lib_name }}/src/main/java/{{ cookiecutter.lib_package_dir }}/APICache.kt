@@ -26,7 +26,7 @@ class APICache private constructor(context: Context) {
     val value: AtomicInteger
         get() = AtomicInteger(prefs.getInt(VALUE, -999))
 
-    val data: AtomicReference<String>
+    val data: AtomicReference<String?>
         get() = AtomicReference(prefs.getString(DATA, null))
 
     fun setData(canal: String?) {
