@@ -2,6 +2,7 @@ name: Coockiecutter Testing
 on: 
   push:
     branches:
+     - '*'
      - '!master'
 
 jobs:
