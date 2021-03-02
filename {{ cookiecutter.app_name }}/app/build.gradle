@@ -100,5 +100,5 @@ dependencies {
     kaptAndroidTest "com.google.dagger:dagger-compiler:$rootProject.dagger2Version"
 
     // Android Kotlin Extension
-    implementation "androidx.core:core-ktx:$rootProject.androidKTXVersion"
+    // implementation "androidx.core:core-ktx:$rootProject.androidKTXVersion"
 }
