@@ -1,19 +1,28 @@
-  
-name: GH Page
+name: Check GH Pages
 
 on:
   push:
-    paths-ignore:
-      - '**.md'
+    paths:
+      - '.github/workflows/check_url.yml'
+      - 'README.md'
+      - 'README.es.md'
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  check:
+  english_check:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check the deployed english website
+      uses: Jtalk/url-health-check-action@v1.3
+      with:
+        url: https://romellfudi.github.io/AndroidLibProject/
+        max-attempts: 3
+        retry-delay: 5s
+  spanish_check:
     runs-on: ubuntu-latest
     steps:
     - name: Check the deployed website
       uses: Jtalk/url-health-check-action@v1.3
       with:
-        url: https://romellfudi.github.io/AndroidLibProject/
+        url: https://romellfudi.github.io/AndroidLibProject/README.es
         max-attempts: 3
         retry-delay: 5s
