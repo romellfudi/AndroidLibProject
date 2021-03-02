@@ -28,6 +28,7 @@ jobs:
         cookiecutter gh:romellfudi/AndroidLibProject -c java  --no-input --overwrite-if-exists
     - name: Testing Java project
       run: cd MyApplication;./gradlew build;cd ..; rm -rf MyApplication;
+      
     - name: Generate Kotlin project
       run: |
         cookiecutter gh:romellfudi/AndroidLibProject -c kotlin  --no-input --overwrite-if-exists
