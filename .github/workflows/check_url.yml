@@ -2,6 +2,8 @@ name: Check GH Pages
 
 on:
   push:
+    branches:
+      - 'master' 
     paths:
       - '.github/workflows/check_url.yml'
       - 'README.md'
