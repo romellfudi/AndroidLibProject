@@ -37,7 +37,7 @@ $ conda install cookiecutter
 ------------
     cookiecutter  gh:romellfudi/AndroidLibProject --checkout java
 
-## Project Organization
+## Project Organization in Java & Kotlin
 
 ```
 .
@@ -89,9 +89,74 @@ app_name
                     └── ExampleUnitTest
 ```
 
+## Project Organization in Kotlin DSL
+
+```
+.
+├── LICENSE
+├── README.md
+├── app
+│   ├── build.gradle.kts
+│   ├── proguard-rules.pro
+│   └── src
+│       ├── androidTest
+│       │   └── java
+│       │       └── package_dir
+│       │           └── ExampleInstrumentedTest.kt
+│       └── main
+│           ├── AndroidManifest.xml
+│           ├── assets
+│           │   └── seed
+│           │       ├── options.json
+│           │       └── questions.json
+│           ├── java
+│           │   └── package_dir
+│           │       ├── App.kt
+│           │       ├── data
+│           │       ├── di
+│           │       ├── model
+│           │       ├── ui
+│           │       └── util
+│           └── res
+├── build.gradle.kts
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── ktlint.gradle.kts
+├── local.properties
+├── settings.gradle.kts
+└── lib_name
+    ├── build.gradle.kts
+    ├── proguard-rules.pro
+    └── src
+        ├── main
+        │   ├── AndroidManifest.xml
+        │   ├── java
+        │   │   └── lib_package_dir
+        │   │       ├── APICache.kt
+        │   │       ├── APIException.kt
+        │   │       ├── Api.kt
+        │   │       ├── ApiAbstract.kt
+        │   │       ├── Callback.kt
+        │   │       ├── DataResponse.kt
+        │   │       └── Module.kt
+        │   └── res
+        │       └── values
+        │           └── strings.xml
+        └── test
+            └── java
+                └── lib_package_dir
+                    └── ExampleUnitTest.kt
+```
+
 [cookiecutter](https://github.com/audreyr/cookiecutter) plantilla para proyectos usando gradle.
 
 ### License
 MIT. See the LICENSE file for the copyright notice.
 
-2020, April
+Updated
+2021, March
