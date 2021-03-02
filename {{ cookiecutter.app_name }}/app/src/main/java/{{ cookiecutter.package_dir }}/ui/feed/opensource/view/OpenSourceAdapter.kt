@@ -5,7 +5,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.net.toUri
+import android.net.Uri
 import {{ cookiecutter.package_name }}.R
 import {{ cookiecutter.package_name }}.data.network.OpenSource
 import {{ cookiecutter.package_name }}.util.extension.loadImage
@@ -60,7 +60,7 @@ class OpenSourceAdapter(openSourceListItems: MutableList<OpenSource>) : Recycler
                         // using "apply" as an example
                         itemView.context.startActivity(Intent().apply {
                             action = Intent.ACTION_VIEW
-                            data = it.toUri()
+                            data = Uri.parse(it)
                             addCategory(Intent.CATEGORY_BROWSABLE)
                         })
                     } catch (e: Exception) {
