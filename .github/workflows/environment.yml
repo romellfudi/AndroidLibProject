@@ -1,9 +1,8 @@
-
 name: Coockiecutter Testing
 on: 
   push:
-    paths-ignore:
-      - '**.md'
+    branches:
+     - '!master'
 
 jobs:
   java:
