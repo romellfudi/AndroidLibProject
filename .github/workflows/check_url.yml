@@ -1,0 +1,19 @@
+  
+name: GH Page
+
+on:
+  push:
+    paths-ignore:
+      - '**.md'
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check the deployed website
+      uses: Jtalk/url-health-check-action@v1.3
+      with:
+        url: https://romellfudi.github.io/AndroidLibProject/
+        max-attempts: 3
+        retry-delay: 5s
