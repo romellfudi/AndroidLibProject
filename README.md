@@ -1,3 +1,6 @@
+![Gemini_Generated_Image_log1bqlog1bqlog1](https://github.com/user-attachments/assets/473558fb-a5f3-40cf-bd4c-4b6065de3151)
+
+
 ## Android Lib template using cookiecutter
 
 [![Platform](https://img.shields.io/badge/platform-android-brightgreen.svg)](https://developer.android.com/index.html)
